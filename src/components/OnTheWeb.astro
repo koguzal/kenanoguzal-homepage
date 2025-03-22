@@ -1,0 +1,46 @@
+---
+import { FaGithubSquare } from 'react-icons/fa'
+import { RiTwitterXLine } from 'react-icons/ri'
+import { IoLogoGithub } from 'react-icons/io5';
+import { RiBlueskyLine } from "react-icons/ri";
+import { FaMastodon } from "react-icons/fa6";
+---
+
+<div class="py-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
+  <h3
+    class="text-xl font-bold mb-4 pb-1 border-b-2 border-gray-200 dark:border-gray-700"
+  >
+    On the web
+  </h3>
+
+  <div class="flex flex-row justify-center gap-5">
+    <a
+      href="https://github.com/koguzal"
+      aria-label="Github"
+      class="bg-gray-800 p-3 rounded-full hover:bg-white text-gray-300 hover:text-gray-900 transition-all"
+    >
+      <IoLogoGithub size={20} />
+    </a>
+    <a
+      href="https://x.com/kenanoguzal"
+      aria-label="X (Twitter)"
+      class="bg-gray-800 p-3 rounded-full hover:bg-white text-gray-300 hover:text-gray-900 transition-all"
+    >
+      <RiTwitterXLine size={20} />
+    </a>
+    <a
+      href="https://bsky.app/profile/kenanoguzal.bsky.social"
+      aria-label="Bluesky"
+      class="bg-gray-800 p-3 rounded-full hover:bg-white text-gray-300 hover:text-gray-900 transition-all"
+    >
+      <RiBlueskyLine size={20} />
+    </a>
+    <a
+      href="#"
+      aria-label="X (Twitter)"
+      class="bg-gray-800 p-3 rounded-full hover:bg-white text-gray-300 hover:text-gray-900 transition-all"
+    >
+      <FaMastodon size={20} />
+    </a>
+  </div>
+</div>
